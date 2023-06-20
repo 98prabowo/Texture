@@ -12,7 +12,6 @@ Pod::Spec.new do |spec|
   spec.documentation_url = 'http://texturegroup.org/appledoc/'
 
   spec.ios.deployment_target = '9.0'
-  spec.tvos.deployment_target = '9.0'
 
   # Subspecs
   spec.subspec 'Core' do |core|
@@ -92,7 +91,6 @@ Pod::Spec.new do |spec|
   # This will change in 3.0.
   spec.default_subspecs = 'Core', 'PINRemoteImage', 'Video', 'MapKit', 'AssetsLibrary', 'Photos'
 
-  spec.social_media_url = 'https://twitter.com/TextureiOS'
   spec.library = 'c++'
   spec.pod_target_xcconfig = {
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
